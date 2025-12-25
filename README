@@ -1,0 +1,47 @@
+# Color Palette Generator
+
+The Color Palette Generator is a front-end project built using HTML, SCSS, and JavaScript. It dynamically generates a palette of colors when the user clicks a button and displays the corresponding HEX color codes on each color box.
+
+## Features
+
+- Generates multiple random colors on button click
+- Dynamically creates color boxes using JavaScript DOM manipulation
+- Displays HEX color code on each color box
+- Automatically adjusts text color (black or white) based on background color brightness for better readability
+- Clean and responsive user interface
+
+## Technologies Used
+
+- HTML
+- SCSS
+- JavaScript (DOM Manipulation)
+
+## How It Works
+
+- Clicking the **Generate** button triggers a JavaScript function
+- Random HEX color values are generated
+- Color boxes are created dynamically using the DOM
+- Each box is filled with a random color
+- The HEX code of the color is displayed inside the box
+- Text color switches between black or white based on the brightness of the background color
+
+## How to Run
+
+1. Clone the repository
+2. Open the `index.html` file in any modern web browser
+
+## Learning Objectives
+
+This project helps practice:
+
+- JavaScript functions
+- DOM creation and manipulation
+- Event handling
+- Conditional logic
+- Working with color values and brightness calculation
+
+## Future Improvements
+
+- Copy HEX code on click
+- Lock individual colors
+- Export palette functionality
