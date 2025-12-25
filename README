@@ -1,29 +1,27 @@
-# Color Palette Generator
+# Product List Landing Page
 
-The Color Palette Generator is a front-end project built using HTML, SCSS, and JavaScript. It dynamically generates a palette of colors when the user clicks a button and displays the corresponding HEX color codes on each color box.
+This project is a simple product listing application built using HTML, CSS, and JavaScript. It dynamically renders a list of products on the page using JavaScript arrays and objects, demonstrating core DOM manipulation and data handling concepts.
 
 ## Features
 
-- Generates multiple random colors on button click
-- Dynamically creates color boxes using JavaScript DOM manipulation
-- Displays HEX color code on each color box
-- Automatically adjusts text color (black or white) based on background color brightness for better readability
-- Clean and responsive user interface
+- Displays a list of products dynamically on button click
+- Uses JavaScript arrays and objects to manage product data
+- Renders product information using DOM methods
+- Clean and simple card-based layout
+- Beginner-friendly and well-structured code
 
 ## Technologies Used
 
 - HTML
-- SCSS
+- CSS
 - JavaScript (DOM Manipulation)
 
 ## How It Works
 
-- Clicking the **Generate** button triggers a JavaScript function
-- Random HEX color values are generated
-- Color boxes are created dynamically using the DOM
-- Each box is filled with a random color
-- The HEX code of the color is displayed inside the box
-- Text color switches between black or white based on the brightness of the background color
+- Product data is stored in an array of objects in JavaScript
+- Each product contains an id, name, price, and category
+- Clicking the **Show Products** button triggers a function
+- The function dynamically creates and displays product cards on the page
 
 ## How to Run
 
@@ -32,16 +30,10 @@ The Color Palette Generator is a front-end project built using HTML, SCSS, and J
 
 ## Learning Objectives
 
-This project helps practice:
+This project helps in practicing:
 
-- JavaScript functions
+- Working with arrays and objects
+- Using `forEach` for rendering data
 - DOM creation and manipulation
 - Event handling
-- Conditional logic
-- Working with color values and brightness calculation
-
-## Future Improvements
-
-- Copy HEX code on click
-- Lock individual colors
-- Export palette functionality
+- Structuring JavaScript logic cleanly
